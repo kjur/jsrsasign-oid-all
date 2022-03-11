@@ -1,0 +1,45 @@
+{
+    "name": "jsrsasign-oid-all",
+    "version": "0.9.1",
+    "description": "jsrsasign add-on for all of registered object identifier definitions",
+    "main": "lib/index.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kjur/jsrsasign-oid-all.git"
+    },
+    "keywords": [
+        "jsrsasign",
+        "objectidentifier",
+        "oid"
+    ],
+    "author": "Kenji Urushima",
+    "homepage": "https://github.com/kjur/jsrsasign-oid-all/",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/kjur/jsrsasign-oid-all/issues"
+    },
+    "dependencies": {
+        "jsrsasign": ">=10.5.2",
+	"jsrsasign-oid-jpcomreg": "*",
+	"jsrsasign-oid-jpki": "*",
+	"jsrsasign-oid-psd2": "*",
+	"jsrsasign-oid-ru": "*"
+    },
+    "devDependencies": {
+        "mocha": "*"
+    },
+    "funding": "https://github.com/kjur/jsrsasign#donations",
+    "badges": {
+        "list": [
+            "githubsponsors",
+            "crypto"
+        ],
+        "config": {
+            "githubSponsorsUsername": "kjur",
+            "cryptoURL": "https://github.com/kjur/jsrsasign#cryptocurrency"
+        }
+    }
+}
