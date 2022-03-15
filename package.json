@@ -1,6 +1,6 @@
 {
     "name": "jsrsasign-oid-all",
-    "version": "0.9.5",
+    "version": "0.9.6",
     "description": "jsrsasign add-on for all of registered object identifier definitions",
     "main": "lib/index.js",
     "scripts": {
@@ -25,6 +25,7 @@
         "jsrsasign": ">=10.5.12",
 	"jsrsasign-oid-jpcomreg": "*",
 	"jsrsasign-oid-jpki": "*",
+	"jsrsasign-oid-eidas": "*",
 	"jsrsasign-oid-psd2": "*",
 	"jsrsasign-oid-ru": "*",
 	"jsrsasign-oid-ms": "*",
