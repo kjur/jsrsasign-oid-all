@@ -3,10 +3,12 @@ var rs = require("jsrsasign");
 require('../lib/index.js').addon(rs);
 
 var oids = {
-    "Russian Federation":		"1.2.643",			// from ru
-    "psd2-qcp-web":			"0.4.0.19495.3.1",		// from psd2
+    "id-cabf-cp":			"2.23.140.1",			// from misc
     "jpcomreg-certificatePolicy":	"1.2.392.100300.1.3.4",		// from jpcomreg
-    "jpki-pd-commonName":               "1.2.392.200149.8.5.5.1"	// from jpki
+    "jpki-pd-commonName":               "1.2.392.200149.8.5.5.1",	// from jpki
+    "psd2-qcp-web":			"0.4.0.19495.3.1",		// from psd2
+    "Russian Federation":		"1.2.643",			// from ru
+    "id-ms-kp-documentSigning":		"1.3.6.1.4.1.311.10.3.12",	// from ms
 };
 
 function addon(jsrsasign) {
